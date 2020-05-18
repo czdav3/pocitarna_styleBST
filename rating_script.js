@@ -1,4 +1,4 @@
- console.log("Načten hodnotící script.");
+ console.log("Rate ready!");
             function eventFire(el, etype){
   if (el.fireEvent) {
     el.fireEvent('on' + etype);
