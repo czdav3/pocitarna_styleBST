@@ -4,7 +4,7 @@ console.log(" ");
 var akontace = document.getElementsByName('text3')[0].value;
 console.log(akontace);
 
-if(akontace){
+if(akontace === ""){
 var table = document.getElementById("t-order-contact").getElementsByTagName("tbody")[0];
 var row = table.insertRow();
 var cell = row.insertCell();
